@@ -2074,6 +2074,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "components:DIODE"
 			(pin_numbers hide)
 			(pin_names
@@ -7180,6 +7325,16 @@
 	)
 	(wire
 		(pts
+			(xy 664.21 156.21) (xy 670.56 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd506299-3f99-418d-9d35-92fe9e19ef57")
+	)
+	(wire
+		(pts
 			(xy 303.53 67.31) (xy 300.99 67.31)
 		)
 		(stroke
@@ -7437,6 +7592,16 @@
 			(type default)
 		)
 		(uuid "dbd898f9-2074-426c-809a-07c4aa7e9b3b")
+	)
+	(wire
+		(pts
+			(xy 685.8 156.21) (xy 680.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1bd044-1c43-4f4b-ace5-e157535216c8")
 	)
 	(wire
 		(pts
@@ -19598,6 +19763,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 675.64 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fafdcb0-cb67-4814-925d-ed5195be3785")
+		(property "Reference" "SW35"
+			(at 675.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 675.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 675.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 675.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 675.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeca0d8b-f7ba-4585-9f70-a89fd1fe1e88")
+		)
+		(pin "2"
+			(uuid "2fd22054-9be4-4d5a-b4d9-83b3fd60164f")
+		)
+		(instances
+			(project ""
+				(path "/aeb6a6d4-f0d5-44e2-86f8-9901b2370183"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Heatsink_Pad")
 		(at 496.57 356.87 0)
 		(unit 1)
@@ -19946,6 +20179,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 608.33 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "469f725e-fd86-4a1d-a4a9-e5cc619df07a")
+		(property "Reference" "SW66"
+			(at 608.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 608.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 608.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 608.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 608.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1074262c-3aec-4c29-8a0a-b834ba4ef3fd")
+		)
+		(pin "2"
+			(uuid "da0313c7-1114-46e9-a5d6-a5f93c985b93")
+		)
+		(instances
+			(project "Atreus62"
+				(path "/aeb6a6d4-f0d5-44e2-86f8-9901b2370183"
+					(reference "SW66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 603.25 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4be5df81-4739-4012-b8eb-ccfd6737e6ac")
+		(property "Reference" "#PWR04"
+			(at 603.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 603.25 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 603.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 603.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 603.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e4997ee-f48e-4ca7-8750-0c906723d5d4")
+		)
+		(instances
+			(project "Atreus62"
+				(path "/aeb6a6d4-f0d5-44e2-86f8-9901b2370183"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 637.54 130.81 90)
 		(unit 1)
@@ -19955,7 +20322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eb5ecb0-b445-424f-bc23-5d32aee22d21")
-		(property "Reference" "TP2"
+		(property "Reference" "TP5V1"
 			(at 634.238 125.73 90)
 			(effects
 				(font
@@ -19971,7 +20338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 637.54 125.73 0)
 			(effects
 				(font
@@ -20004,7 +20371,7 @@
 		(instances
 			(project "Atreus62"
 				(path "/aeb6a6d4-f0d5-44e2-86f8-9901b2370183"
-					(reference "TP2")
+					(reference "TP5V1")
 					(unit 1)
 				)
 			)
@@ -20163,7 +20530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e8b989b-f796-4441-bdb5-93a867fc8a29")
-		(property "Reference" "TP3"
+		(property "Reference" "TP3V1"
 			(at 645.16 129.5399 90)
 			(effects
 				(font
@@ -20181,7 +20548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 640.08 135.89 0)
 			(effects
 				(font
@@ -20214,7 +20581,73 @@
 		(instances
 			(project "Atreus62"
 				(path "/aeb6a6d4-f0d5-44e2-86f8-9901b2370183"
-					(reference "TP3")
+					(reference "TP3V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 685.8 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f270f7a-b33c-44a1-af25-93ca7cb69cfc")
+		(property "Reference" "#PWR03"
+			(at 685.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 685.8 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 685.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 685.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 685.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33553cc0-c3b8-4dff-b61c-a097bf991cbc")
+		)
+		(instances
+			(project "Atreus62"
+				(path "/aeb6a6d4-f0d5-44e2-86f8-9901b2370183"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -20465,7 +20898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a435ea9f-cde8-41d6-8e78-af7d291e4e7d")
-		(property "Reference" "TP1"
+		(property "Reference" "TPGND1"
 			(at 635.508 226.06 90)
 			(effects
 				(font
@@ -20481,7 +20914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 638.81 226.06 0)
 			(effects
 				(font
@@ -20514,7 +20947,7 @@
 		(instances
 			(project ""
 				(path "/aeb6a6d4-f0d5-44e2-86f8-9901b2370183"
-					(reference "TP1")
+					(reference "TPGND1")
 					(unit 1)
 				)
 			)

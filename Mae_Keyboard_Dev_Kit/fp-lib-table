@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "footprints")(type "KiCad")(uri "$(KIPRJMOD)/footprints.pretty")(options "")(descr ""))
   (lib (name "key")(type "KiCad")(uri "${KIPRJMOD}/key.pretty")(options "")(descr ""))
+  (lib (name "MaeLid")(type "KiCad")(uri "${KIPRJMOD}/MaeLid.pretty")(options "")(descr ""))
 )
