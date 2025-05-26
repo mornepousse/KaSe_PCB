@@ -1,7 +1,0 @@
-Plugin v0.0.1 running on KiCad 9.0.1 and Python 3.13.3 (main, Apr  9 2025, 07:44:25) [GCC 14.2.1 20250207] on linux.
-Config file /home/mae/Documents/GitHub/Mae_Keyboard_Dev_Kit/Mae_Keyboard_Dev_Kit/Atreus62.projinst.json not found. Creating new one.
-Valid Board found for /home/mae/Documents/GitHub/Mae_Keyboard_Dev_Kit/Mae_Keyboard_Dev_Kit/Atreus62.kicad_sch
-0 sheet instances entries in /home/mae/Documents/GitHub/Mae_Keyboard_Dev_Kit/Mae_Keyboard_Dev_Kit/Atreus62.kicad_sch
-Root item: <wx._dataview.TreeListItem object at 0x7c3c088e4320>
-No Valid Child board for 
-Instance is a dead branch: 

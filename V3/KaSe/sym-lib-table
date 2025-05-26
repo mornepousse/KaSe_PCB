@@ -1,7 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Atreus62-rescue")(type "KiCad")(uri "${KIPRJMOD}/Atreus62-rescue.kicad_sym")(options "")(descr ""))
-  (lib (name "components")(type "Legacy")(uri "${KIPRJMOD}/components.lib")(options "")(descr ""))
-  (lib (name "generic_kbd-cache")(type "Legacy")(uri "${KIPRJMOD}/generic_kbd-cache.lib")(options "")(descr ""))
-  (lib (name "NRF")(type "KiCad")(uri "${KIPRJMOD}/NRF24L01_/NRF24L01_.kicad_sym")(options "")(descr ""))
-)
