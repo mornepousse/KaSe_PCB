@@ -254,4 +254,4 @@ This roadmap is a living document. Community feedback and contributions are welc
 
 ---
 
-*Last Updated: 2026-01-08*
+*Last Updated: January 2026*
